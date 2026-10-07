@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we calculate | TrueCostToLive</title>
+<meta name="description" content="The assumptions behind every TrueCostToLive episode: home prices, rates, property tax, insurance, the 28% rule, taxes and local pay.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/img/icon-512.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0e3034">
+<meta property="og:title" content="How we calculate | TrueCostToLive">
+<meta property="og:description" content="The assumptions behind every TrueCostToLive episode: home prices, rates, property tax, insurance, the 28% rule, taxes and local pay.">
+<meta property="og:image" content="https://tonydo2020.github.io/TrueCostToLive/assets/img/og-image.png">
+<meta property="og:url" content="https://tonydo2020.github.io/TrueCostToLive/methodology.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/img/icon-512.png" alt="" width="38" height="38"><span>True<b>Cost</b>ToLive</span></a>
+    <nav class="nav" aria-label="Main"><a href="index.html">Cities</a><a href="methodology.html" aria-current="page">How we calculate</a><a href="about.html">About</a><a class="btn btn-gold" href="https://www.youtube.com/@truecosttolive">Watch on YouTube</a></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head"><div class="wrap"><h1>How we calculate</h1><p>The assumptions behind every episode, in one place.</p></div></section>
+<section class="article"><div class="wrap">
+<p>Each episode works through the cost of buying the typical home in one US metro area, using public data and the same rules every time. These are the rules.</p>
+
+<h2>The home and the payment</h2>
+<table class="table">
+  <tr><th>Item</th><th>Assumption</th></tr>
+  <tr><td>Home price</td><td>Median home value for the metro area (Census ACS). Owners report it, so it can lag current sale prices.</td></tr>
+  <tr><td>Down payment</td><td>20% in the main case. We also show 10% down with mortgage insurance.</td></tr>
+  <tr><td>Mortgage rate</td><td>30-year fixed rate from Freddie Mac's weekly survey (via FRED), refreshed every week.</td></tr>
+  <tr><td>Property tax</td><td>The metro's typical property tax paid as a share of home value (Census ACS).</td></tr>
+  <tr><td>Homeowners insurance</td><td>A stated estimate: 0.5% of the home's value a year, adjusted in a few states (higher in Florida, Louisiana, Texas and Oklahoma). Real quotes vary a lot.</td></tr>
+  <tr><td>Mortgage insurance (PMI)</td><td>0.5% of the loan a year when less than 20% is put down.</td></tr>
+</table>
+
+<h2>The salary you need</h2>
+<p>Many lenders want your housing payment (principal, interest, taxes and insurance) to be no more than about 28% of your gross income. We work that backwards: monthly cost × 12 ÷ 28%. This assumes no other debts. Car loans or student loans push the number higher, because lenders also cap total debts at around 36% of income.</p>
+
+<h2>Take-home pay</h2>
+<p>Take-home uses current federal income tax brackets and the standard deduction for a single filer, plus Social Security, Medicare and the state's income tax. It does not include retirement contributions, health insurance premiums or local taxes, so real paychecks are usually a bit smaller.</p>
+
+<h2>Who can afford it</h2>
+<p>Pay for each job is the median annual wage for that occupation in that metro area, from the Bureau of Labor Statistics (OEWS). Half the people in that job earn more and half earn less. Couples are two medians added together.</p>
+
+<h2>Rent and cost of living</h2>
+<p>Rent is the metro's median gross rent (Census ACS). Day-to-day costs use the Bureau of Economic Analysis Regional Price Parities, where the US average is 100.</p>
+
+<div class="note">Every episode is educational. It shows one reasonable way to run the numbers for a typical home, not a recommendation for anyone's own purchase.</div>
+
+<h2>Sources</h2>
+<p>Every statistic quoted in an episode is listed, with its source and date, in that video's description. Main sources: U.S. Census Bureau American Community Survey, Bureau of Labor Statistics OEWS, Freddie Mac Primary Mortgage Market Survey, Bureau of Economic Analysis Regional Price Parities, FHFA House Price Index, and the IRS and state revenue departments.</p>
+</div></section>
+
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="index.html"><img src="assets/img/icon-512.png" alt="" width="38" height="38"><span>True<b>Cost</b>ToLive</span></a>
+      <p style="margin-top:14px">What it really costs to live in US cities: home prices, the salary to buy, rent, taxes and real local pay. Built from public data. General education, not financial advice.</p>
+    </div>
+    <div>
+      <h3>Watch</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/@truecosttolive">YouTube</a></li>
+        <li><a href="https://www.youtube.com/@truecosttolive/shorts">YouTube Shorts</a></li>
+        <li><a href="https://www.facebook.com/truecosttolive">Facebook</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Site</h3>
+      <ul>
+        <li><a href="methodology.html">How we calculate</a></li>
+        <li><a href="about.html">About the channel</a></li>
+        <li><a href="about.html#app">The TrueCostToLive app</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+        <li><a href="mailto:taleoftony@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+    <p class="fine">© 2026 TrueCostToLive. Everything on this channel is general education built from public data. It is not financial, tax, lending or real estate advice. Prices, rates, taxes and insurance change; check current numbers with a lender before you buy.</p>
+  </div>
+</footer>
+</body>
+</html>
